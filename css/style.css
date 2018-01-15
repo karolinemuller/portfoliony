@@ -1,0 +1,1604 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+/*HEADER MENU
+____________________________________________________*/
+
+header {
+    background-color: #e7e7e7;
+    width: 100%;
+}
+
+
+nav {
+    text-align: center;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 18px;
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 5%;
+    margin-left: 10%
+}
+
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 15px 30px;
+    text-decoration: none;
+    float: none;
+    margin-top: 10px;
+}
+
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    color: #a9a9a9;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+/*LOGO ØVERST I VENSTRE HJØRNE
+___________________________________________________*/
+
+#logo {
+    float: left;
+    margin-top: .50em;
+    margin-left: .4em;
+}
+
+.logo {
+    width: 10%;
+    padding: 20px;
+}
+
+.navn {
+    position: absolute;
+    width: 100%;
+    margin-left: 5%;
+}
+
+/* FORSIDE 
+_________________________________________________________*/
+
+.madoverskrift {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.madtekst {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 27px;
+    display: flex;
+    height: 423px;
+    width: 100% margin: 2%;
+    margin-left: 14%;
+    margin-right: 9%;
+    line-height: 1.5;
+}
+
+.madteskt1 {
+    margin: auto;
+}
+
+.madtekst3 {
+    margin: top;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 40px;
+    margin-left: 46%
+}
+
+.madtekst2 {
+    margin: top;
+    margin-top: 10%;
+    margin-left: 6.5%;
+
+}
+
+.tekst {
+    background-color: white;
+}
+
+
+/* PIL 
+___________________________________________________*/
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+.demo a {
+    position: absolute;
+    left: 46.5%;
+    top: 78%
+}
+
+.demo a:hover {
+    opacity: .5;
+}
+
+
+#section02 a span {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+#section02 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    transform: rotate(-45deg);
+
+}
+
+
+
+/*cases
+________________________________________________*/
+
+.case1 {
+    width: 33.3%;
+    margin: 1% auto;
+    padding-left: 9%;
+    display: block;
+    float: left;
+    padding-top: 7%;
+}
+
+.cases {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* TEKST EFFEKT FORSIDE 
+________________________________________*/
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+
+.word {
+    position: absolute;
+    width: 85px;
+    opacity: 0;
+}
+
+.letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+    transform: rotateX(90deg);
+
+}
+
+.letter.behind {
+    transform: rotateX(-90deg);
+
+}
+
+.letter.in {
+    transform: rotateX(0deg);
+
+}
+
+
+/*KOMPETENCER
+______________________________________________*/
+
+.ps-cirkel {
+    background-image: url(../images/photo.png);
+    background-size: 9.5%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+.illu-cirkel {
+    background-image: url(../images/illu.png);
+    background-size: 8.8%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 46%;
+
+}
+
+.id-cirkel {
+    background-image: url(../images/id.png);
+    background-size: 9.3%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 56%;
+}
+
+
+.html-cirkel {
+    background-image: url(../images/html.png);
+    background-size: 8.8%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 67%;
+}
+
+/*OVERLAY PÅ BILLEDERNE I CASE UNDERSIDE
+________________________________________________*/
+
+.case1 {
+    position: relative;
+    width: 30%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 20;
+    bottom: 0;
+    left: 30;
+    right: 20;
+    height: 80%;
+    width: 70%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e7e7;
+
+}
+
+.case1:hover .overlay {
+    opacity: 0.9;
+
+}
+
+.overlay1 {
+    position: absolute;
+    top: 20;
+    bottom: 0;
+    left: 30;
+    right: 20;
+    height: 80%;
+    width: 76%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e7e7;
+}
+
+
+.case1:hover .overlay1 {
+    opacity: 0.9;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 20;
+    bottom: 0;
+    left: 30;
+    right: 20;
+    height: 80%;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e7e7;
+
+}
+
+.case1:hover .overlay2 {
+    opacity: 0.9;
+}
+
+
+.overlay3 {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    left: 30;
+    right: 20;
+    height: 78%;
+    width: 70%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e7e7;
+
+}
+
+.case1:hover .overlay3 {
+    opacity: 0.9;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    left: 30;
+    right: 20;
+    height: 78%;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e7e7;
+
+
+}
+
+.billeder {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+
+.case1:hover .overlay4 {
+    opacity: 0.9;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+
+/*CASE 1 OG CASE 2 OG CASE 3
+______________________________________________________*/
+
+.overskrift1 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+.overskrift2 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    margin-left: 14%;
+    margin-top: -3%;
+}
+
+.tekst {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    width: 43%;
+    line-height: 1.5;
+    margin-left: 14%;
+}
+
+
+.rectangle {
+    background-color: #e7e7e7;
+    width: 350px;
+    border: 25px solid #e7e7e7;
+    position: absolute;
+    margin-left: 60%;
+}
+
+.aarhus {
+    margin-left: 14%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.aarhus1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.aarhus2 {
+    margin-top: 13%;
+    margin-left: -35%;
+    margin-bottom: 3%;
+}
+
+.aarhus3 {
+    margin-top: 16%;
+    margin-bottom: 3%;
+}
+
+.aarhus4 {
+    margin-left: -35%;
+    margin-top: 14%;
+    margin-bottom: 3%;
+}
+
+.magasin {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.artikel {
+    display: flex;
+}
+
+.sektion {
+    flex: 1;
+}
+
+/* PHOTOSHOP 
+______________________________________________________*/
+
+.photoshop {
+    margin-left: 14%;
+}
+
+.ps {
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.photoshop1 {
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.photoshop2 {
+    margin-left: 3%;
+    margin-bottom: 2%
+}
+
+/* CV 
+______________________________________________________*/
+
+.profil {
+    margin-bottom: -10%;
+}
+
+.karoline1 {
+    margin-left: 47%;
+    position: absolute;
+    border-radius: 50%;
+    width: 30%;
+}
+
+.cv {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    margin-left: 14%;
+    margin-top: 5%;
+    margin-bottom: 4%
+}
+
+.aarhus3 {
+    margin-left: 14%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cv-overskrift {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: -4.5%;
+    font-size: 20px;
+}
+
+.om-mig {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 20px;
+    margin-left: 17%;
+    position: absolute;
+    margin-top: -2%;
+}
+
+.profil1 {
+    margin-left: 14%;
+    width: 25px;
+}
+
+.uddannelse {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.workbag {
+    margin-left: 30%;
+    margin-bottom: 1%;
+
+}
+
+.erfaring {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.pil {
+    margin-left: 26%;
+    margin-right:
+}
+
+.pil1 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 3.5%;
+
+}
+
+.pil2 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 13%;
+    margin-left: -19%
+}
+
+.pil3 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: -2%;
+}
+
+.pil4 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 29.5%;
+    margin-left: -19%;
+}
+
+.pillen {
+    margin-left: 28%;
+}
+
+.pillen1 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 1%
+}
+
+.pillen2 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 4%
+}
+
+.pillen3 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -4%
+}
+
+.pillen4 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-left: -24%;
+    margin-top: 13%;
+}
+
+.pillen5 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: -.5%
+}
+
+.pillen6 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-left: -24%;
+    margin-top: 22%;
+}
+
+.pillen7 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: -4%
+}
+
+.pillen8 {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    margin-left: -19.5%;
+    margin-top: 30%;
+}
+
+/* KONTAKT 
+____________________________________________________*/
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+input,
+textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 13px;
+    background: #e7e7e7;
+    resize: none;
+}
+
+#input-submit {
+    color: ;
+    background: #e7e7e7;
+    cursor: pointer;
+}
+
+textarea {
+    height: 126px;
+}
+
+.half {
+    margin-bottom: em;
+}
+
+.right {
+    width: 50%;
+}
+
+
+@media (max-width: 480px) {
+    .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+.kontakt {
+    font-family: 'Abadi MT Condensed Light', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+/*FOOTER 
+_______________________________________________________*/
+
+footer {
+    width: 100%;
+    height: 2em;
+    background-color: #e7e7e7;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.ikoner {
+    color: #858484;
+    padding: 0% 2%;
+
+
+}
+
+div a:hover {
+    color: #a9a9a9;
+}
+
+/* BURGERMENU
+________________________________________________________*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+#menuToggle {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -28px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: black;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -100px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+
+#menuToggle input:checked ~ ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+}
+
+
+
+/* MOBIL SITE 
+___________________________________________________________________*/
+
+@media screen and (max-width: 767px) {
+
+    #menuToggle {
+        display: block;
+    }
+
+    .website {
+        display: none;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .en {
+        margin-top: 10%;
+    }
+
+
+    header {
+        margin-top: -15%;
+    }
+
+    .madtekst2 {
+        margin-left: -390px;
+        margin-top: 456px;
+        text-align: center;
+
+    }
+    
+
+    
+    .skift {
+      margin-right: 25%;
+        
+    }
+ 
+
+    /*MOBIL
+_____________________________________________________*/
+    .ps-cirkel {
+        margin-left: -4%;
+        margin-top: 580px;
+        background-size: 20%;
+    }
+
+    .illu-cirkel {
+        margin-left: 16%;
+        margin-top: 580px;
+        background-size: 18.3%;
+    }
+
+    .id-cirkel {
+        margin-left: 34%;
+        margin-top: 580px;
+        background-size: 19.4%;
+    }
+
+    .html-cirkel {
+        margin-top: 580px;
+        margin-left: 54%;
+        background-size: 18.1%;
+    }
+
+    .cases {
+        margin-top: 170px;
+        width: 150%;
+    }
+
+    .cases1 {
+        margin-top: 15%;
+    }
+
+    .case1 {
+        margin-top: 10%;
+    }
+
+    .case3 {
+        margin-top: 48%;
+        margin-left: -60%;
+    }
+
+    .selvvalgt {
+        margin-top: -65%;
+        margin-left: 30%;
+        width: 32%
+    }
+
+    .info {
+        margin-top: -25%;
+        width: 31%
+    }
+
+    .hvid {
+        display: none;
+    }
+
+    .fire {
+        margin-top: 10%;
+    }
+
+    .to {
+        margin-top: 25%;
+    }
+
+    .cases10 {
+        margin-top: 0%
+    }
+
+
+
+    /* MOBIL CV
+__________________________________________________________*/
+    .cv {
+        margin-top: 10%;
+    }
+
+
+    .entekst {
+        width: 75%;
+    }
+
+    .pil {
+        display: none;
+
+    }
+
+    .pil1 {
+        display: none;
+    }
+
+    .pil2 {
+        display: none;
+    }
+
+    .pil3 {
+        display: none;
+    }
+    .pil4 {
+        display: none;
+    }
+
+    .pillen {
+        display: none;
+    }
+    .pillen1 {
+        display: none;
+    }
+    .pillen2 {
+        display: none;
+    }
+    .pillen3 {
+        display: none;
+    }
+    .pillen4 {
+        display: none;
+    }
+    .pillen5 {
+        display: none;
+    }
+    .pillen6 {
+        display: none;
+    }
+    .pillen7 {
+        display: none;
+    }
+    .pillen8 {
+        display: none;
+    }
+
+    .profil1 {
+        width: 10%;
+        margin-top: 6%;
+    }
+
+    .om-mig {
+        margin-left: 25%;
+        margin-top: -24px;
+        position: absolute;
+
+    }
+
+    .aarhus3 {
+        width: 14%;
+        margin-top: 9%;
+        width: 40px;
+    }
+
+    .uddannelse {
+        margin-top: 10%;
+
+    }
+
+    .workbag {
+        width: 35px;
+        margin-left: 17%;
+    }
+
+    .erfaring {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .mobil {
+        width: 320px;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+
+    .mobil1 {
+        width: 355px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .karoline1 {
+        margin-left: 140px;
+        width: 100px;
+
+    }
+
+    .profil1 {
+        width: 30px;
+    }
+    /* MOBIL KONTAKT 
+____________________________________________________________*/
+    .madtekst3 {
+        margin-left: 39%;
+    }
+
+    .kontakt {
+        margin-left: 3%;
+    }
+    .fem {
+        margin-top: 20%;
+    }
+    .rectangle7 {
+        margin-left: 14%;
+        position: inherit;
+    }
+
+    /* CASE 1 OG CASE 2
+____________________________________________________________*/
+    .aarhusmobil {
+        width: 70%
+    }
+
+    .aarhusmobil1 {
+        width: 35%
+    }
+
+    .aarhusmobil2 {
+        width: 35%
+    }
+
+
+
+    .overskrift1 {
+        margin-top: 10%;
+    }
+
+    .rectangle1 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .rectangle2 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .rectangle3 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .aarhusmobil3 {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .tekst1 {
+        width: 72%;
+    }
+
+
+
+    /* selvvalgt 
+____________________________________________________________*/
+    .rectangle4 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+    .psmobil {
+        width: 50%;
+    }
+
+    .psmobil1 {
+        width: 30%;
+    }
+
+    .psmobil2 {
+        width: 40%;
+    }
+
+    .rectangle5 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+}
+
+
+/* TABLET 
+______________________________________________________________*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #menuToggle {
+        display: block;
+    }
+
+    .website {
+        display: none;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .en {
+        margin-top: 10%;
+    }
+
+
+    header {
+        margin-top: -15%;
+    }
+
+    .madtekst2 {
+        margin-top: 456px;
+          margin-left: -330px;
+
+    }
+
+
+    /*TABLET
+_____________________________________________________*/
+    .ps-cirkel {
+        margin-left: -4%;
+        margin-top: 580px;
+        background-size: 20%;
+    }
+
+    .illu-cirkel {
+        margin-left: 16%;
+        margin-top: 580px;
+        background-size: 18.3%;
+    }
+
+    .id-cirkel {
+        margin-left: 34%;
+        margin-top: 580px;
+        background-size: 19.4%;
+    }
+
+    .html-cirkel {
+        margin-top: 580px;
+        margin-left: 54%;
+        background-size: 18.1%;
+    }
+
+    .cases {
+        margin-top: 170px;
+        width: 150%;
+    }
+
+    .cases1 {
+        margin-top: 15%;
+    }
+
+    .case1 {
+        margin-top: 10%;
+    }
+
+    .case3 {
+        margin-top: 48%;
+        margin-left: -60%;
+    }
+
+    .selvvalgt {
+        margin-top: -73%;
+        margin-left: 50%;
+        width: 45%;
+        position: absolute;
+    }
+
+    .info {
+        margin-top: -15%;
+        width: 31%;
+    }
+
+    .hvid {
+        display: none;
+    }
+
+    .fire {
+        margin-top: 10%;
+    }
+
+    .to {
+        margin-top: 25%;
+    }
+
+    .cases10 {
+        margin-top: 0%;
+    }
+
+    .overlay3 {
+        height: 85%;
+        width: 79%;
+    } 
+
+
+    /* TABLET CV
+__________________________________________________________*/
+    .cv {
+        margin-top: 10%;
+    }
+
+
+    .entekst {
+        width: 75%;
+    }
+
+    .pil {
+        display: none;
+
+    }
+
+    .pil1 {
+        display: none;
+    }
+
+    .pil2 {
+        display: none;
+    }
+
+    .pil3 {
+        display: none;
+    }
+    .pil4 {
+        display: none;
+    }
+
+    .pillen {
+        display: none;
+    }
+    .pillen1 {
+        display: none;
+    }
+    .pillen2 {
+        display: none;
+    }
+    .pillen3 {
+        display: none;
+    }
+    .pillen4 {
+        display: none;
+    }
+    .pillen5 {
+        display: none;
+    }
+    .pillen6 {
+        display: none;
+    }
+    .pillen7 {
+        display: none;
+    }
+    .pillen8 {
+        display: none;
+    }
+
+    .profil1 {
+        width: 10%;
+        margin-top: 6%;
+    }
+
+    .om-mig {
+        margin-left: 25%;
+        margin-top: -24px;
+        position: absolute;
+
+    }
+
+    .aarhus3 {
+        width: 40px;
+        position: absolute;
+        margin-top: 10%;
+
+    }
+
+    .uddannelse {
+        margin-top: 11%;
+        margin-left: 20%;
+
+    }
+
+    .workbag {
+        width: 35px;
+        margin-left: -400px;
+
+    }
+
+    .erfaring {
+        margin-top: 72%;
+
+
+
+    }
+    .mobil {
+        width: 330px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: -10%;
+    }
+
+    .mobil1 {
+        width: 340px;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+    .karoline1 {
+        margin-left: 140px;
+        width: 100px;
+
+    }
+
+    .profil1 {
+        width: 30px;
+    }
+    /* TABLET KONTAKT 
+____________________________________________________________*/
+    .madtekst3 {
+        margin-left: 46%;
+    }
+
+    .kontakt {
+        margin-left: 24%;
+    }
+    .fem {
+        margin-top: 20%;
+    }
+    .rectangle7 {
+        margin-left: 14%;
+        position: inherit;
+    }
+
+    /* CASE 1 OG CASE 2
+____________________________________________________________*/
+    .aarhusmobil {
+        width: 70%
+    }
+
+    .aarhusmobil1 {
+        width: 35%
+    }
+
+    .aarhusmobil2 {
+        width: 35%
+    }
+
+
+
+    .overskrift1 {
+        margin-top: 10%;
+    }
+
+    .rectangle1 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .rectangle2 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .rectangle3 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+
+    .aarhusmobil3 {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .tekst1 {
+        width: 72%;
+    }
+
+
+
+
+
+    /* selvvalgt 
+____________________________________________________________*/
+    .rectangle4 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+    .psmobil {
+        width: 50%;
+    }
+
+    .psmobil1 {
+        width: 30%;
+    }
+
+    .psmobil2 {
+        width: 40%;
+    }
+
+    .rectangle5 {
+        margin-left: 14%;
+        width: 75%;
+        position: inherit;
+    }
+
+}
+
+
+
+/* DESKTOP SITE 
+_____________________________________________________________*/
+
+@media screen and (min-width: 1024px) {
+    .mobil {
+        display: none;
+    }
+    .mobil1 {
+        display: none;
+    }
+
+}
